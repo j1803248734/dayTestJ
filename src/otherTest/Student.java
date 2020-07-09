@@ -1,10 +1,12 @@
-import EntityTest.Person;
+package otherTest;
+
+import entityTest.Person;
 
 import java.util.Date;
 
 /**
  * Copyright (C), 2020, 东华厚盾
- * FileName: Student
+ * FileName: otherTest.Student
  * Author:   jiangshuju
  * Date:     2020/5/29 8:54
  * Description: 实体

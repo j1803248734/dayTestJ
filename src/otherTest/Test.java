@@ -1,3 +1,4 @@
+package otherTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -5,7 +6,7 @@ import java.util.*;
 
 /**
  * Copyright (C), 2020, 东华厚盾
- * FileName: Test
+ * FileName: otherTest.Test
  * Author:   jiangshuju
  * Date:     2020/5/28 16:12
  * Description: 测试
@@ -45,7 +46,7 @@ public class Test {
 
         new Thread();
 
-//        new Student( ()-> System.out.println("hhh我创建了") ).toString();
+//        new otherTest.Student( ()-> System.out.println("hhh我创建了") ).toString();
         new HashMap<String , String>().put("","").toCharArray();
         new Thread(()-> System.out.println("121")).start();
         

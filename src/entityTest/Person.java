@@ -5,9 +5,7 @@
  * Date:     2020/5/29 10:56
  * Description: ceshi
  */
-package EntityTest;
-
-import java.util.List;
+package entityTest;
 
 public class Person {
     private String name;

@@ -1,8 +1,10 @@
+package otherTest;
+
 import com.alibaba.fastjson.JSON;
 
 /**
  * Copyright (C), 2020, 东华厚盾
- * FileName: JsonTest
+ * FileName: otherTest.JsonTest
  * Author:   jiangshuju
  * Date:     2020/5/29 17:29
  * Description: 测试json转化为map

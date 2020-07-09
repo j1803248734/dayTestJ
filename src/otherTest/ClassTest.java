@@ -1,11 +1,11 @@
-import java.lang.reflect.Constructor;
+package otherTest;
+
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
  * Copyright (C), 2020, 东华厚盾
- * FileName: ClassTest
+ * FileName: otherTest.ClassTest
  * Author:   jiangshuju
  * Date:     2020/5/29 8:54
  * Description: 反射
@@ -15,7 +15,7 @@ public class ClassTest {
     public static void main(String[] args) {
         try {
 
-            Class clazz = Class.forName("Student");
+            Class clazz = Class.forName("otherTest.Student");
 //            /**
 //             * 获取所有的公共构造方法
 //             */
@@ -37,7 +37,7 @@ public class ClassTest {
 //             */
 //           // Object o = constructor1.newInstance(1,2);
 //            //System.out.println("o=="+o);
-//           // Student student = (Student) o;
+//           // otherTest.Student student = (otherTest.Student) o;
 //            //System.out.println(student.getGrade());
 
             /**
@@ -59,7 +59,7 @@ public class ClassTest {
 //            Field field = clazz.getField("age");
 //            field.set(obj ,13 );
 //
-//            Student student = (Student) obj;
+//            otherTest.Student student = (otherTest.Student) obj;
 //            System.out.println("age====="+student.getAge());
 //
 //            Field field3 = clazz.getDeclaredField("grade");

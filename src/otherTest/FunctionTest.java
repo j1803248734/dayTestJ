@@ -1,4 +1,6 @@
-import EntityTest.Person;
+package otherTest;
+
+import entityTest.Person;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,7 +12,7 @@ import java.util.stream.Stream;
 
 /**
  * Copyright (C), 2020, 东华厚盾
- * FileName: FunctionTest
+ * FileName: otherTest.FunctionTest
  * Author:   jiangshuju
  * Date:     2020/5/29 10:53
  * Description: 函数式编程

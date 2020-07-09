@@ -1,3 +1,5 @@
+package otherTest;
+
 import com.sun.deploy.util.ArrayUtil;
 import com.sun.deploy.util.StringUtils;
 import javafx.scene.input.DataFormat;
