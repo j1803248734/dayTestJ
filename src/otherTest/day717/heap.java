@@ -1,20 +1,33 @@
 package otherTest.day717;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 堆排序
  */
 public class heap {
     public static void main(String[] args) {
-        int [] num  = new int[]{ 4 , 99 , 88  , 11 , 22 , 33 , 1 , 2 , 3};
+//        int [] num  = new int[]{ 4 , 99 , 88  , 11 , 22 , 33 , 1 , 2 , 3};
+        int [] num = getarray(100000000);
 //        heapsort(num);
 //        insertBy(num , 3 , 100);
-        num = insert(num , 98);
-        num = insert(num , 100);
-        num = insert(num , 5);
+//        num = insert(num , 98);
+//        num = insert(num , 100);
+//        num = insert(num , 5);
+        long start = System.currentTimeMillis();
         heapsort(num);
-        System.out.println(Arrays.toString(num));
+        System.out.println((System.currentTimeMillis() - start)*1.0/1000 +"s");
+//        System.out.println(Arrays.toString(num));
+    }
+
+    static int[] getarray(int num){
+        Random random = new Random();
+        int [] temp = new int[num];
+        for(int i = 0 ; i < num ; ++i){
+            temp[i] = random.nextInt();
+        }
+        return temp;
     }
 
     /**

@@ -1,12 +1,27 @@
 package otherTest.day717;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class merge {
     public static void main(String[] args) {
-        int [] num  = new int[]{ 99 , 88  , 11 , 22 , 33 , 1 , 2 , 3};
-        mergesort(num , 0 , num.length - 1);
-        System.out.println(Arrays.toString(num));
+//        int [] num  = new int[]{ 99 , 88  , 11 , 22 , 33 , 1 , 2 , 3};
+        int [] num = getarray(100000000);
+        long start = System.currentTimeMillis();
+//        mergesort(num , 0 , num.length - 1);
+        mergefor(num);
+        System.out.println((System.currentTimeMillis() - start)*1.0/1000 +"s");
+
+//        System.out.println(Arrays.toString(num));
+    }
+
+    static int[] getarray(int num){
+        Random random = new Random();
+        int [] temp = new int[num];
+        for(int i = 0 ; i < num ; ++i){
+            temp[i] = random.nextInt();
+        }
+        return temp;
     }
 
     /**
