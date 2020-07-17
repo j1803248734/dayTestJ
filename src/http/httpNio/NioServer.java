@@ -1,4 +1,4 @@
-package httpNio;
+package http.httpNio;
 
 import com.sun.corba.se.spi.activation.Server;
 import org.apache.log4j.Logger;

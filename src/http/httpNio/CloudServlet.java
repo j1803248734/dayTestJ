@@ -1,4 +1,4 @@
-package httpNio;
+package http.httpNio;
 
 public interface CloudServlet {
     /**

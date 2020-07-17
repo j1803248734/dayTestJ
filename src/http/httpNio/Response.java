@@ -1,4 +1,4 @@
-package httpNio;
+package http.httpNio;
 
 import java.io.ByteArrayOutputStream;
 import java.util.*;

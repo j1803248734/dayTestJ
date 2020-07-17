@@ -1,4 +1,4 @@
-package httpNio;
+package http.httpNio;
 
 public class CloudHttpServer {
     public static void main(String[] args) {

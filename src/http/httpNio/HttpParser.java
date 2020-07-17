@@ -1,6 +1,5 @@
-package httpNio;
+package http.httpNio;
 
-import com.sun.deploy.util.StringUtils;
 import org.apache.log4j.Logger;
 
 import java.io.UnsupportedEncodingException;

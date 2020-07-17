@@ -1,4 +1,4 @@
-package httpNio;
+package http.httpNio;
 
 import org.apache.log4j.Logger;
 
