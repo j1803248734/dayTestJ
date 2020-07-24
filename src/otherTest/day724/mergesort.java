@@ -1,5 +1,6 @@
 package otherTest.day724;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class mergesort {
@@ -9,10 +10,11 @@ public class mergesort {
     public static void main(String[] args) {
         int [] num = getarray(100000000);
 //        int [] num = new int[]{ 55 , 22 ,22, 33 , 11 , 44 , 88};
+        merge(num , 0 , num.length - 1 );
         long start = System.currentTimeMillis();
-//        merge(num , 0 , num.length - 1 );
         mergefor(num);
         System.out.println((System.currentTimeMillis() - start)*1.0/1000 +"s");
+        System.out.println(Arrays.toString(num));
     }
 
     static int[] getarray(int num){
@@ -34,7 +36,6 @@ public class mergesort {
         sort(num , start , mid , end);
     }
 
-    //分组排序
     static void sort(int [] num , int start , int mid , int end){
         int ln1 = start ;
         int ln2 = mid + 1;
