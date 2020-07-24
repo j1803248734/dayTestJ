@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class quicksort {
     public static void main(String[] args) {
-        int [] num = getarray(100000000);
+        int [] num = getarray(100000);
 //        int [] num = new int[]{ 55 , 22 ,22, 33 , 11 , 44 , 88};
         long start = System.currentTimeMillis();
         quick(num , 0 , num.length - 1 );
